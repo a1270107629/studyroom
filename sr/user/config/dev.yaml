@@ -1,0 +1,15 @@
+db:
+  dsn: "sr:D38zXc382XCBJDAH@tcp(124.222.51.152:3306)/sr?charset=utf8mb4&parseTime=True&loc=Local"
+
+redis:
+  addr: "http://124.222.51.152:6379"
+  password: "9q5uRhW0zvHDrY3e"
+
+etcd:
+  endpoints:
+    - "localhost:12379"
+grpc:
+  server:
+#    要注意，拆分出来之后有很多服务，都会占用端口，小心端口冲突。
+    port: 8091
+    etcdTTL: 60

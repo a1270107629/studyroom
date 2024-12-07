@@ -1,0 +1,20 @@
+services:
+  Etcd:
+    image: 'bitnami/etcd:3.5'
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ADVERTISE_CLIENT_URLS=http://etcd:12379
+    ports:
+      - 12379:2379
+
+#   prometheus:
+#     image: prom/prometheus:v2.47.2
+#     volumes:
+# #      - 将本地的 prometheus 文件映射到容器内的配置文件
+#       - ./prometheus.yaml:/etc/prometheus/prometheus.yml
+#     ports:
+# #      - 访问数据的端口
+#       - 9090:9090
+#     command:
+#       - "--web.enable-remote-write-receiver"
+#       - "--config.file=/etc/prometheus/prometheus.yml"

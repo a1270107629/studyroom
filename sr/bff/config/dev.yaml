@@ -1,0 +1,17 @@
+http:
+  addr: ":8080"
+etcd:
+  endpoints:
+    - "localhost:12379"
+    -
+redis:
+  addr: "http://124.222.51.152:6379"
+  password: "9q5uRhW0zvHDrY3e"
+
+grpc:
+#  使用 etcd 来作为服务发现
+#  配置客户端的时候一定要小心端口，要填对
+#  当然对应的服务也要启动起来
+  client:
+    user:
+      target: "etcd:///service/user"

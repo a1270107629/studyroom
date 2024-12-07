@@ -1,0 +1,216 @@
+2024-12-07T20:25:52.305+0800	ERROR	logger/zap_logger.go:33	解析请求失败	{"error": "invalid character '\"' after object key:value pair"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:66
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:27:22.873+0800	ERROR	logger/zap_logger.go:33	解析请求失败	{"error": "invalid character '\"' after object key:value pair"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:66
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:29:04.180+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:30:53.212+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:35:42.867+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:37:34.034+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:38:26.841+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
+2024-12-07T20:39:13.135+0800	ERROR	logger/zap_logger.go:33	执行业务逻辑失败	{"error": "rpc error: code = Unavailable desc = error reading from server: EOF"}
+github.com/a1270107629/studyroom/sr/pkg/logger.(*ZapLogger).Error
+	/Users/sep/Desktop/studyroom/sr/pkg/logger/zap_logger.go:33
+github.com/a1270107629/studyroom/sr/pkg/ginx.WrapReq[...].func1
+	/Users/sep/Desktop/studyroom/sr/pkg/ginx/handler_func.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/a1270107629/studyroom/sr/bff/ioc.timeout.func1
+	/Users/sep/Desktop/studyroom/sr/bff/ioc/web.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/logger.go:249
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/context.go:185
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:633
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/sep/go/pkg/mod/github.com/gin-gonic/gin@v1.10.0/gin.go:589
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:3210
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go/1.23.3/libexec/src/net/http/server.go:2092
